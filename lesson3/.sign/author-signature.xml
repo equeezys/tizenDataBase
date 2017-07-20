@@ -8,7 +8,7 @@
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>5Y0uv2NwKmsoCTysHdNBdZwmy9SnnUpnm5ZVl2Vzoz0=</DigestValue>
+<DigestValue>bVFJLCRoJoaD5a3m+fl5C7Fp1POfHjlUvl/OWCKAUlg=</DigestValue>
 </Reference>
 <Reference URI="css%2Fjquery.mobile-1.4.5.min.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -36,7 +36,11 @@
 </Reference>
 <Reference URI="jqm.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>jlKc8GlGEU1cDK2MtwlpF5sebbhYMw2Ui7N5RMoAzx0=</DigestValue>
+<DigestValue>9sbRKlvIBM8W/P9MXFfQP0Oq4/pE8UiAWyY62sC613g=</DigestValue>
+</Reference>
+<Reference URI="js%2Fbt.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xtDwcipWY4rRivTrNVu6jQLAkotI4e2VnC0ergoLKoU=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcamera.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -56,7 +60,7 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>umm7JsuZjKmhcD/q2RzYKOXLCCyoLJXXlS+isdTC8vU=</DigestValue>
+<DigestValue>LO7f+AMLLdLkHP/VtOdp1eaOM/50vpXrZaPSpNUigng=</DigestValue>
 </Reference>
 <Reference URI="js%2Frss.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -66,9 +70,17 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>4zVXJLdHpcuaiZ7J/xfLCPQovp924IPtftiFBqdw7w4=</DigestValue>
 </Reference>
+<Reference URI="js%2Fsavefile.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DyqgdzuNDozlzr4dsrEhJPLuYIFLDFHj9keYTb1mQQE=</DigestValue>
+</Reference>
 <Reference URI="js%2Fwebsql_rss_db.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>Uk5xIB4KK0yR97EzMXNvkav79qT0TuCMCEpydMIkXjo=</DigestValue>
+</Reference>
+<Reference URI="js%2Fwi_fi.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WYkdbPw+lv5xEu4AC4dNyLvAj3F8Bf0+TQIZg5MaWtc=</DigestValue>
 </Reference>
 <Reference URI="rss.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -87,11 +99,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-gp25/yirhxtYNt03kU85YTqxsgs9+zaY+xSyo4UBA0bcvbNXCH02RCABzyNp+ZBZB9xisRsPkjlY
-Zu+Atjd7uLI3pBqdVqm3iciRLBW5VWW2zmpBIyDVLurc5MGh6wnHcwpsuH42Nws1RmJF4MJa67CF
-g1eX4NoO9ZK+8aQw15taSxs2UCFK1UfHJxa5hyiDoHJeiLZtRjL8xlstyJJOvpnhbQQkVmB1a2lj
-q3pt9qy5MpVZhlFZYWxiEqCds32Xv9DLy2EhEwso/Z5EtAoYThaPDEnQ1QJfJh8DOQkQFR1zX4Yy
-ebPDwqlb4poezPKjljD6wpbiXEiOt9nF3WmCyw==
+hx/KMIzOow6jEi6ennD9RRh5WaqEdjwGpHf3ZfoaghBe6+0Iinx1z03icSHShQgs29jctQTg/N6D
+5cekVOQjKszZ7wu5ssNVU1ar1H/peC/n9ciJIqVLLWXTNEbb9hIylo5ke32NOXPUOefBzViAiYGJ
+mk3YwOY36vKyxDLKtaAjshzTwIqxn38Y1wGiGs13WaXPOU0vChpeAOEOjnrKxMegDAds4Jc8mjeG
+vqqchrRwTAoKzhP/uHZkV5FsdCEsNlfJE0cYdmeFW3KIZRf+k5k7D+Z125r5JosdwQ5avHZZKcQG
+UQkiF+1wzkGw4fOi0RCrCUwoBpVRMT4rF5J/aA==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

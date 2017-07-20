@@ -1,5 +1,6 @@
 var startTime;
 var checkTime;
+var vibrateInterval
 
 //Initialize function
 var init = function () {
@@ -37,4 +38,14 @@ function checkTime(i) {
 		i="0" + i;
 	}
 	return i;
+}
+function singleVib(){
+	window.navigator.vibrate(200);
+}
+function singleVib2(){
+	window.navigator.vibrate([200,700,200,700,200,700,500,300,100,1000]);
+}
+function singleVib3(){
+	if(vibrateInterval) clearInterval(vibrateInterval);
+	window.navigator.vibrate(0);
 }

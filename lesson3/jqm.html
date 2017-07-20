@@ -9,7 +9,11 @@
 		<style type="text/css" media="screen">@import "css/style.css";</style>		
         <script src="js/jquery-2.0.0.min.js"></script>		
         <script src="js/jquery.mobile-1.4.5.min.js" type="application/x-javascript" charset="utf-8"></script>
-        <script src="js/camera.js"></script>		
+        <script src="js/camera.js"></script>
+        <script src="js/savefile.js"></script>
+        <script src="js/wi_fi.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bt.js"></script>				
 		<script>		
 
 			window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
@@ -27,10 +31,15 @@
 			</div>
 			<div data-role="content" >	
 				<ul data-role="listview" data-inset="true" data-theme="a">
-					<li><a href="#search">Поиск</a></li>
-					<li><a href="#contact">Связаться с нами</a></li>
-					<li><a href="#camera">Камера</a></li>
+					<li><a href="#search" >Поиск</a></li>
+					<li><a href="#contact" >Связаться с нами</a></li>
+					<li><a href="#camera" >Камера</a></li>
+					<li><a href="#save" >Сохранить файл</a></li>
 				</ul>
+				<button onclick="singleVib()">Single vibration</button>
+				<button onclick="singleVib2()">Pattern vibration</button>
+				<button onclick="singleVib3()">Stop vibration</button>
+				<div class="connection-status"></div>
 			</div>
 			<div data-role="footer">
 				Footer Footer
@@ -68,8 +77,8 @@
 					<label for="slider">Значение:</label>
 					<input type="range" name="slider" id="slider" value="0" min="-50" max="50" />	
 					<p/>
-					<label for="slider2">Значение:</label>
-					<select name="slider2" id="slider2" data-role="slider">
+					<label for="slider2">Bluetooth</label>
+					<select name="slider2" id="slider2" data-role="slider"  onchange="onOffBT()">
 						<option value="off">off</option>
 						<option value="on">on</option>
 					</select> 
@@ -80,7 +89,13 @@
 						<option value="b">B</option>
 						<option value="c">C</option>
 					</select>						
-				</div>	
+				</div>
+				<script>
+
+				
+				
+				
+				</script>	
 			</div>
 
 		</div>
@@ -105,6 +120,18 @@
 			</div>
 
 		</div>
+		
+		<div data-role="page" id="save" data-theme="a">
+			<div data-role="header" >
+				<h1>Сохранение файла</h1>
+			</div>
+			<div data-role="content" >	
+			    <button onclick="writeTestFile()" data-icon="arrow-d">Save</button>
+			</div>
+
+		</div>
+		
+		
 		
 	</body>
 </html>
