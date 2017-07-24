@@ -88,7 +88,7 @@
 </Reference>
 <Reference URI="rss_offline.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>QT+bwYpR5BXxSmdlXn0YtIdmkWzod5OqX8i/oeuuXxs=</DigestValue>
+<DigestValue>CSOCQLclbQbDVBhVSqCFkRoNZuCSghx6zd4TA58oX00=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -99,11 +99,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-cARYTVSIkn7apRxyG5mucsjxf6IL3W6qSgJOj4xRy/tNkuE+FnLChAUhjtU8PjGuivZW4T5q7SiE
-ZXLnejk4iXiRRVaOhviEjWf9fE/EICee10owH3lx9LYPs631nfgOxqJPkx7ftlzEzDwnHDwkaPHq
-PpQ0voAhqCP1/5PSv9wkZSBuojVMMH8hIGm/nfSJL7Xy6ntqfYCaGHYVITJZW2LR2YQrH9dbuzlq
-cEqOqavoxrzpVyB0jX1NvabGiAp9uJw3DWcjvLAjyF16flg1EEh6flw26WJEAqJle8PISX6vOZrL
-+w42leRqVxa/0n/xlpWr+MXp1F68EY9VkzCbDQ==
+knwCG4lptQJh1BC+Dk0iTf6GyeY7JrZ9Emn0+7r++15krcB8n4rdJU5qnBVc31qyY3upf+Mc7MlK
+f/d5pkRJv3lIP0lZ75XRdA/8XcN4i7tJ4PfuOtXjQbW0D89/v2zBCqk/ME9IN5D21ya9lFCI6sBp
+IqPw1hI0DXDzRtVcTDavgzGIIXKqA9wii02GTHOPNbYN84RLiM18y/EjJlgbe1SA1AeghH/uL4Ik
+cfcEPWWfuFpQVmhgGuCK0dRsiduGNrGsuPqE63Zt5xj6lrNImRLRPwdzWYEVw5xZJjLS8q7ZRr0V
+iHsDHKG9gq/BrzawO+hLFtLSj6Ri3CTaPyZa0Q==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

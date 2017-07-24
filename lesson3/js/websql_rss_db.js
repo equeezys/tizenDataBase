@@ -11,7 +11,14 @@ window.onload = function () {
 var baseName 	  = "WebBase";
 var storeName 	  = "WebBaseStore";
 
-
+function searchTitle(){
+	
+	
+	
+	
+	
+	
+}
 
 function getFeed(){
 	var indicator = document.getElementById("indicator");

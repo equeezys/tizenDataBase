@@ -102,6 +102,7 @@ function writeName(){
 	   console.log("The error " + error.message + " occurred when listing the files in the selected folder");
 	 }
 	 
+	 
 
 	 tizen.filesystem.resolve(
 	     'documents',
