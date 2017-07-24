@@ -10,8 +10,8 @@
         <script src="js/jquery-2.0.0.min.js"></script>		
         <script src="js/jquery.mobile-1.4.5.min.js" type="application/x-javascript" charset="utf-8"></script>
         <script src="js/camera.js"></script>
-        <script src="js/savefile.js"></script>
         <script src="js/wi_fi.js"></script>
+        <script src="js/savefile.js"></script>
         <script src="js/main.js"></script>
         <script src="js/bt.js"></script>				
 		<script>		
@@ -88,7 +88,9 @@
 						<option value="a">A</option>
 						<option value="b">B</option>
 						<option value="c">C</option>
-					</select>						
+					</select>
+					<button onclick="changeTheme()" data-icon="arrow-d">ChangeTheme</button>
+											
 				</div>
 				<script>
 
@@ -127,6 +129,10 @@
 			</div>
 			<div data-role="content" >	
 			    <button onclick="writeTestFile()" data-icon="arrow-d">Save</button>
+			    <form onsubmit="writeName()" >
+					Enter your name: <input id="fname" type="text" size="20">
+				<input type="submit">
+				</form>
 			</div>
 
 		</div>

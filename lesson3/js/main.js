@@ -9,14 +9,45 @@ var init = function () {
 
 	// add eventListener for tizenhwkey
 	document.addEventListener('tizenhwkey', function(e) {
-		if(e.keyName == "back") {
-			try {
-				tizen.application.getCurrentApplication().exit();
-			} catch (error) {
-				console.error("getCurrentApplication(): " + error.message);
-			}
+        if( ev.keyName === "back" ) {
+            var activePopup = document.querySelector( '.ui-popup-active' ),
+                page = document.getElementsByClassName( 'ui-page-active' )[0],
+                pageid = page ? page.id : "";
+
+            if( pageid === "one" && !activePopup ) {
+                try {
+                    tizen.application.getCurrentApplication().exit();
+                } catch (ignore) {
+                }
+            } else {
+                window.history.back();
+            }
+        }
+	});
+	var activities = document.getElementById("select-choice-1");
+	
+	activities.addEventListener("change", function() {
+		switch(activities.value){
+		case 'b':
+			addActivityItem('b');
+			break;
+		case 'a':
+			addActivityItem('a');
+			break;
+		case 'c':
+			addActivityItem('e');
 		}
 	});
+
+	function addActivityItem(theme2) {
+		$("[data-role='page']").buttonMarkup({theme: theme2});
+		$("[data-role='header']").buttonMarkup({theme: theme2});
+		$(".ui-mobile-viewport").buttonMarkup({theme: theme2});
+		$(".ui-btn").buttonMarkup({theme: theme2});
+		$("[data-role='listview']").buttonMarkup({theme: theme2});
+		$("[data-role='footer']").buttonMarkup({theme: theme2});
+	}
+	
 };
 // window.onload can work without <body onload="">
 window.onload = init;
@@ -48,4 +79,7 @@ function singleVib2(){
 function singleVib3(){
 	if(vibrateInterval) clearInterval(vibrateInterval);
 	window.navigator.vibrate(0);
+}
+function changeTheme(){
+	$("[data-role='page']").buttonMarkup({theme: 'b'});
 }
